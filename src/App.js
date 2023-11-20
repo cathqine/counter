@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="" element=<MainPage /> />
+          <Route path="/" element=<MainPage /> />
           <Route path="/counter" element=<Counter /> />
         </Routes>
       </BrowserRouter>
