@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path="/" element=<MainPage /> />
           <Route path="/counter" element=<MainPage /> />
           <Route path="/counter/app" element=<Counter /> />
         </Routes>
