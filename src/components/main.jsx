@@ -10,7 +10,7 @@ const MainPage = () => {
   const onSubmission = (data) => {
     if (data.name !== '') {
       // setSuccess(true);
-      navigate('/counter', { state: { name: data.name } });
+      navigate('/counter/app', { state: { name: data.name } });
       localStorage.setItem('name', JSON.stringify(data.name));
     } else {
       // setSuccess(false);

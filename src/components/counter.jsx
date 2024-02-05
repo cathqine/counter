@@ -87,7 +87,7 @@ const Counter = () => {
       {(showIncrement === true) ? <IncrementButton /> : null}
       {(showDecrement === true) ? <DecrementButton /> : null}
 
-      <button onClick={() => { navigate('/') }} style={{ marginTop: '2em' }}> Go Back </button>
+      <button onClick={() => { navigate('/counter') }} style={{ marginTop: '2em' }}> Go Back </button>
     </div>
   );
 }
